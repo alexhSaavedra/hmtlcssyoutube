@@ -15,10 +15,18 @@ html {
   margin: 0 5px;
   border-style: none;
   cursor: pointer;
+  transition: opacity 0.15s;
+}
+.noti:hover {
+  opacity: 0.8;
+}
+.noti:active {
+  opacity: 0.5;
 }
 .login {
   height: 40px;
   width: 70px;
+  background-color: white;
   border-color: #1181eb;
   color: #1181eb;
   font-weight: bold;
@@ -28,6 +36,14 @@ html {
   font-weight: bold;
   margin-right: 10px;
   cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.login:hover {
+  background-color: #1181eb;
+  color: white;
+}
+.login:active {
+  opacity: 0.8;
 }
 .twiter {
   height: 40px;
@@ -38,4 +54,11 @@ html {
   border: none;
   font-weight: bold;
   cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+.twiter:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.twiter:active {
+  opacity: 0.8;
 }
