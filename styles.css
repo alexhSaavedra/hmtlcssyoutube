@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.noti {
+  height: 40px;
+  width: 100px;
+  background-color: #a83334;
+  color: white;
+  border-radius: 3px;
+  margin: 0 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.login {
+  height: 40px;
+  width: 70px;
+  border-color: #1181eb;
+  color: #1181eb;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.twiter {
+  height: 40px;
+  width: 80px;
+  background-color: #1776c6;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
