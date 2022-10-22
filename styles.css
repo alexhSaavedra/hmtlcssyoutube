@@ -7,8 +7,7 @@ html {
   font-size: 62.5%;
 }
 .noti {
-  height: 40px;
-  width: 100px;
+  padding: 10px 16px;
   background-color: #a83334;
   color: white;
   border-radius: 3px;
@@ -16,6 +15,7 @@ html {
   border-style: none;
   cursor: pointer;
   transition: opacity 0.15s;
+  vertical-align: top;
 }
 .noti:hover {
   opacity: 0.8;
@@ -24,8 +24,7 @@ html {
   opacity: 0.5;
 }
 .login {
-  height: 40px;
-  width: 70px;
+  padding: 9px 15px;
   background-color: white;
   border-color: #1181eb;
   color: #1181eb;
@@ -46,8 +45,8 @@ html {
   opacity: 0.8;
 }
 .twiter {
-  height: 40px;
-  width: 80px;
+  vertical-align: top;
+  padding: 10px 25px;
   background-color: #1776c6;
   color: white;
   border-radius: 20px;
