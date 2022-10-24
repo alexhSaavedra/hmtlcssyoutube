@@ -1,0 +1,105 @@
+h3 {
+  color: blue;
+  text-decoration: underline;
+}
+.eight-a .name {
+  display: block;
+  margin-bottom: 5px;
+}
+.question {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo {
+  width: 275px;
+  display: block;
+  margin: 0 auto;
+}
+.search-bar {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 16px;
+  transition: box-shadow 0.15s;
+}
+.search-bar:focus {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  outline-color: white;
+}
+
+.names {
+  font-size: 14px;
+  width: 130px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.email {
+  font-size: 14px;
+  display: block;
+  width: 290px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.button-sign {
+  width: 310px;
+  padding: 15px;
+  background-color: #3a75ea;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.eight-e p {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.eight-e input {
+  display: block;
+  width: 300px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  background-color: rgb(238, 236, 236);
+  border: none;
+  font-size: 14px;
+}
+.eight-e input::placeholder {
+  color: rgb(180, 176, 176);
+}
+.request {
+  padding: 15px 25px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.request:hover {
+  opacity: 0.7;
+}
+.schedule {
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  background-color: rgb(238, 236, 236);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.schedule:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
