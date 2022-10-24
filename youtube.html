@@ -6,17 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube.com clone</title>
     <style>
+      .search-bar {
+        display: block;
+      }
       .thumbnail {
         width: 300px;
         display: block;
+      }
+      .video-preview {
+        vertical-align: top;
+        width: 300px;
+        display: inline-block;
+        margin-right: 15px;
       }
     </style>
   </head>
   <body>
     <input type="text" class="search-bar" placeholder="Search" />
-    <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
-    <p>HTML & CSS Full Course - Beginner to Pro (2022)</p>
-    <p>SuperSimpleDev</p>
-    <p>2,1 M de visualizaciones &#183; hace 8 meses</p>
+    <div class="video-preview">
+      <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
+      <p>HTML & CSS Full Course - Beginner to Pro (2022)</p>
+      <p>SuperSimpleDev</p>
+      <p>2,1 M de visualizaciones &#183; hace 8 meses</p>
+    </div>
+    <div class="video-preview">
+      <img class="thumbnail" src="./thumbmail/thumbnail3.webp" alt="" />
+      <p>Yaeow - Sad Girl (Lyrics)</p>
+      <p>Callous</p>
+      <p>616 visualizaciones &#183; hace 2 días</p>
+    </div>
   </body>
 </html>
