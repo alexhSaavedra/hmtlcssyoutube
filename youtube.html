@@ -21,27 +21,24 @@
         display: block;
       }
       .thumbnail {
-        width: 300px;
-        display: block;
+        width: 100%;
         margin-bottom: 10px;
       }
-      .video-preview {
-        vertical-align: top;
-        width: 300px;
-        display: inline-block;
-        margin-right: 15px;
+      .video-container-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 40px;
       }
-      .chanel-picture {
-        display: inline-block;
-        width: 36px;
-        vertical-align: top;
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 36px 1fr;
       }
       .chanel-picture img {
         width: 100%;
+        border-radius: 100%;
       }
       .video-info {
-        display: inline-block;
-        width: 250px;
         margin-left: 5px;
       }
       .video-title {
@@ -62,37 +59,113 @@
   </head>
   <body>
     <input type="text" class="search-bar" placeholder="Search" />
-    <div class="video-preview">
-      <div>
-        <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
-      </div>
-      <div>
-        <div class="chanel-picture">
-          <img src="./img/chanel-picture.jpg" alt="" />
+    <div class="video-container-grid">
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            HTML & CSS Full Course - Beginner to Pro (2022)
-          </p>
-          <p class="video-chanel">SuperSimpleDev</p>
-          <p class="video-stats">
-            2,1 M de visualizaciones &#183; hace 8 meses
-          </p>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/chanel-picture.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro (2022)
+            </p>
+            <p class="video-chanel">SuperSimpleDev</p>
+            <p class="video-stats">
+              2,1 M de visualizaciones &#183; hace 8 meses
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="video-preview">
-      <div>
-        <img class="thumbnail" src="./thumbmail/thumbnail3.webp" alt="" />
-      </div>
-      <div>
-        <div class="chanel-picture">
-          <img src="./img/channel-picture2.jpg" alt="" />
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail3.webp" alt="" />
         </div>
-        <div class="video-info">
-          <p class="video-title">LP - Muddy Waters (Live)</p>
-          <p class="video-chanel">LP</p>
-          <p class="video-stats">133 M de visualizaciones &#183; hace 7 años</p>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/channel-picture2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">LP - Muddy Waters (Live)</p>
+            <p class="video-chanel">LP</p>
+            <p class="video-stats">
+              133 M de visualizaciones &#183; hace 7 años
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/chanel-picture.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro (2022)
+            </p>
+            <p class="video-chanel">SuperSimpleDev</p>
+            <p class="video-stats">
+              2,1 M de visualizaciones &#183; hace 8 meses
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail3.webp" alt="" />
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/channel-picture2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">LP - Muddy Waters (Live)</p>
+            <p class="video-chanel">LP</p>
+            <p class="video-stats">
+              133 M de visualizaciones &#183; hace 7 años
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail2.webp" alt="" />
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/chanel-picture.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro (2022)
+            </p>
+            <p class="video-chanel">SuperSimpleDev</p>
+            <p class="video-stats">
+              2,1 M de visualizaciones &#183; hace 8 meses
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="./thumbmail/thumbnail3.webp" alt="" />
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img src="./img/channel-picture2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">LP - Muddy Waters (Live)</p>
+            <p class="video-chanel">LP</p>
+            <p class="video-stats">
+              133 M de visualizaciones &#183; hace 7 años
+            </p>
+          </div>
         </div>
       </div>
     </div>
