@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+      }
+      .style {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px;
+      }
+      .style p {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .style button {
+        padding: 5px 10px;
+        border: none;
+        background-color: #426cee;
+        color: white;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="style">
+        <p>Home</p>
+        <button>14</button>
+      </div>
+      <div class="style">
+        <p>Notifications</p>
+        <button>3</button>
+      </div>
+      <div class="style">
+        <p>Messages</p>
+        <button>5</button>
+      </div>
+    </div>
+  </body>
+</html>
